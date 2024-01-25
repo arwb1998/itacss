@@ -1,0 +1,524 @@
+@media screen and (min-width: 1024px) {
+    /*Menu*/
+
+    .GlobalNavbarWrapper {
+        background: white;
+    }
+
+    .IsBigNavbar .GlobalNavbarWrapper {
+        background: #0F2638;
+    }
+
+    .MenusNavbarLogoImage {
+        padding: 0.7em;
+    }
+
+    .MenusNavbarLogoContainer {
+        padding: 0;
+    }
+
+    .MenusNavbarLogoContainer,
+    .InputsSearchContainer,
+    .MenusNavbarControlsContainer,
+    .MenusNavbarDesktopNavigationListContainer {
+        background: white !important;
+        transition: background-color .5s;
+    }
+
+    .MenusNavbarDesktopNavigationListSubmenu {
+        background: #0F2638 !important;
+    }
+
+    .IsBigNavbar .MenusNavbarDesktopNavigationListSubmenu {
+        top: 59.5px;
+    }
+
+    .IsBigNavbar .MenusNavbarLogoContainer,
+    .IsBigNavbar .InputsSearchContainer,
+    .IsBigNavbar .MenusNavbarControlsContainer,
+    .IsBigNavbar .MenusNavbarDesktopNavigationListContainer {
+        background: #0F2638 !important;
+    }
+
+    .MenusNavbarDesktopNavigationListList {
+        font-size: 18px;
+    }
+
+    .MenusNavbarListItemContainer>.MenusNavbarListItemLabel {
+        font-weight: 300;
+        color: #0F2638;
+    }
+
+    .NavbarExpandableListItemList>.MenusNavbarListItemContainer>.MenusNavbarListItemLabel {
+        color: white;
+    }
+
+    .IsBigNavbar .MenusNavbarListItemContainer>.MenusNavbarListItemLabel {
+        color: white;
+    }
+
+
+    a.MenusNavbarListItemLabel:hover,
+    .MenusNavbarListItemLabel-Highlight {
+        color: darkgray !important;
+    }
+
+    .IsBigNavbar a.MenusNavbarListItemLabel:hover,
+    .IsBigNavbar .MenusNavbarListItemLabel-Highlight {
+        color: lightblue !important;
+    }
+
+
+    .MenusNavbarDesktopNavigationListSubmenuReversed .MenusCategoryTreeMenuTabulator {
+        padding-right: 0;
+    }
+
+    .MenusNavbarDesktopNavigationListSubmenuReversed .CategoryTreeMenuTabulatorContainer {
+        border-left: unset;
+    }
+
+    .MenusNavbarDesktopNavigationListSubmenuReversed .CategoryTreeMenuTabulatorContainer span {
+        right: 0;
+        left: unset;
+    }
+
+    .MenusNavbarDesktopNavigationListSubmenuReversed .CategoryTreeMenuTabulatorItemInner {
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    .ButtonSearchContainer {
+        background-color: lightgray !important;
+    }
+
+    .IsBigNavbar .ButtonSearchContainer {
+        background-color: white !important;
+    }
+
+    .InputsSearchInput {
+        background-color: white;
+        color: black;
+        transition: none;
+    }
+
+    .InputsSearchInputCloseIcon::after {
+        color: black !important;
+    }
+
+    .InputsSearchInputInner-Open {
+        color: black;
+    }
+
+    .InputsSearchInput-Open .InputsSearchInputSearchIcon::after {
+        color: #0F2638 !important;
+    }
+
+    .IsBigNavbar .InputsSearchInput-Open .InputsSearchInputSearchIcon::after {
+        color: white !important;
+    }
+
+    .IsBigNavbar .InputsSearchInput-Open~.MenusNavbarControlsContainer {
+        margin-left: 10em;
+    }
+
+    .InputsSharedSelectorAnimatedListContainer {}
+
+    .ButtonShoppingCartCartIcon::after,
+    .ButtonFavouritesFavIcon::after,
+    .SettingsPickerUserIcon::after {
+        color: #0F2638 !important;
+        font-size: 17px;
+    }
+
+    .MenusNavbarControlsSection,
+    .SettingsPickerContainer {
+        width: auto;
+        margin-left: 7px;
+    }
+
+    @media screen and (min-width: 1440px) {
+
+        .MenusNavbarControlsSection,
+        .SettingsPickerContainer {
+            margin-left: 15px;
+        }
+    }
+
+    .IsBigNavbar .ButtonShoppingCartCartIcon::after,
+    .IsBigNavbar .ButtonFavouritesFavIcon::after,
+    .IsBigNavbar .SettingsPickerUserIcon::after {
+        color: white !important;
+    }
+
+    .LanguagePickerContainer-Open>.LanguagePickerPickerWrapper::before {
+        position: absolute;
+        top: -0.3em;
+        content: "";
+        right: 30%;
+        width: 0;
+        height: 0;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-bottom: 5px solid white;
+    }
+
+    .LanguagePickerPickerControlInner {
+        color: #0F2638;
+        border: none;
+        opacity: 1;
+        text-decoration: none !important;
+    }
+
+    .IsBigNavbar .LanguagePickerPickerControlInner {
+        color: white;
+    }
+
+    .LanguagePickerPickerControlInner>img {
+        border: 1px solid black;
+        width: auto !important;
+    }
+
+    /**/
+
+
+    /*Category*/
+    .MenusCategoryTreeMenuTabulator {
+        width: 215px;
+        height: fit-content;
+        background-color: #0F2638;
+        padding: 0;
+    }
+
+    .MenusCategoryTreeMenuTabulator a {
+        color: #ffffff;
+    }
+
+    .CategoryTreeMenuTabulatorContainer {
+        border-right: none;
+    }
+
+    .CategoryTreeMenuTabulatorContainer span {
+        color: white;
+    }
+
+    .CategoryTreeMenuTabulatorItemInner {
+        display: flex;
+        font-weight: 300;
+        padding: 0 0 0 20px;
+        margin: 0 0 10px;
+        height: 47px;
+        align-items: flex-end;
+        border-bottom: none;
+        transition: 0.1s;
+    }
+
+    /* ABU */
+
+    .CategoriesCategorySubCategoriesContainer {
+        gap: 1em;
+        padding: 1em;
+    }
+
+    .CategoriesCategorySubCategoriesContainer>div {
+        box-shadow: none;
+        outline: 1px solid #ddd;
+        border-radius: 0.5em;
+        min-width: none;
+        transition: 0.2s;
+        position: relative;
+    }
+
+    .CategoriesCategorySubCategoriesContainer>div:hover {
+        box-shadow: none;
+        transform: none;
+        background-color: #eee;
+    }
+
+    .CategoriesCategorySubCategoriesContainer>div:active {
+        border: inset 2px solid red;
+    }
+
+    .CategoriesCategorySubCategoriesContainer>div::after {
+        content: "";
+        position: absolute;
+        display: block;
+        left: 50%;
+        bottom: 18%;
+        transform: translate(-50%, 0);
+        width: 70%;
+        height: 6%;
+        border-radius: 50%;
+        background-color: #fff;
+        filter: blur(5px);
+        z-index: 0;
+        opacity: 0;
+        transition: 0.2s;
+    }
+
+    .CategoriesCategorySubCategoriesContainer>div:hover::after {
+        opacity: 1;
+    }
+
+    .CategoriesCategorySubCategoriesContainer>div div img {
+        mix-blend-mode: multiply;
+        transition: 0.2s;
+    }
+
+    .CategoriesCategorySubCategoriesContainer>div:hover div img {
+        transform: translateY(-1em);
+        filter: brightness(1.05);
+    }
+
+    .ArticleListContainer.ArticleListContainerCondensed .ArticleListList {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+        padding: 0.5em;
+    }
+
+    .ArticleListContainer .ArticleListList .ArticleListItem {
+        width: 100%;
+        background: #FFFFFF;
+        padding: 25px 25px;
+        margin-bottom: 0 !important;
+        display: grid;
+        border-radius: 0.5em;
+        grid-column-gap: 0;
+        grid-row-gap: 0;
+    }
+
+    .ArticleListContainer {
+        border-radius: 0.5em;
+
+    }
+
+    .GlobalSearchHeaderSelectorsItem .InputsSharedSelectorAnimatedListWrapper {
+        border-radius: 0.5em;
+        border: 1px solid #bbb;
+    }
+
+    .InputsDropdownSelectorPickerWrapper {
+        border-radius: 0.5em;
+        overflow: hidden;
+        top: 40px;
+    }
+
+    .ButtonsSelectorContainer {
+        border-radius: 0.5em;
+    }
+
+    .GlobalFilterContainerButton {
+        border-radius: 0.5em;
+        overflow: hidden;
+    }
+
+    .ButtonSimpleAnimatedContainer {
+        border-radius: 0.5em;
+        overflow: hidden;
+    }
+
+    .ButtonStandardAnimatedContainer {
+        border-radius: 0.5em;
+    }
+
+    .ScrollButtonContainer {
+        width: 4em;
+        height: 4em;
+        border: 0;
+        cursor: pointer;
+    }
+
+    .ScrollButtonContainer:hover i::after {
+        animation: upbttn 1s ease infinite alternate;
+    }
+
+    @keyframes upbttn {
+        from {
+            transform: translateY(0em);
+        }
+
+        to {
+            transform: translateY(-0.5em);
+        }
+    }
+
+    /* ABU */
+
+    .CategoryTreeMenuTabulatorItemInner::after {
+        display: none;
+    }
+
+    .CategoryTreeMenuTabulatorItemInner span {
+        display: none;
+    }
+
+    .CategoryTreeMenuTabulatorItemInner-Selected {
+        color: #ffffff !important;
+        border-left: 4px solid white;
+        border-bottom: none;
+    }
+
+    .MenusCategoryTreeMenuContent {
+        display: none;
+    }
+
+    /**/
+
+
+    /*Footer*/
+
+    .ComponentsFooterMenuContainer {
+        gap: 1em;
+    }
+
+    .ComponentsFooterNewsletterRight div:is(:not(.TinyWrapper_Footer_Newsletter_RightHeader):not(.TinyWrapper_Footer_Newsletter_ContentUnderButton)) {
+        display: none;
+    }
+
+    .ComponentsFooterNewsletterLink {
+        border-radius: 2em;
+        line-height: 3.5em;
+        padding: 0em 4em;
+    }
+
+    @media screen and (min-width: 1525px) {
+        .ComponentsFooterMenuContainer {
+            gap: 5em;
+        }
+    }
+
+    .ComponentsFooterMenuPositionContainer {
+        gap: 1em;
+    }
+
+    .ComponentsFooterContainer-MenuOnLeft>div:nth-child(2) {
+        word-break: break-word;
+    }
+
+    @media screen and (min-width: 1326px) {
+        .ComponentsFooterContainer-MenuOnLeft>div:nth-child(2) {
+            flex-basis: 30%;
+        }
+    }
+
+    .ComponentsFooterContainer {
+        padding: 5em;
+    }
+
+    .ComponentsFooterInfoMenuContainer {
+        display: block;
+    }
+
+    /**/
+}
+
+@media screen and (max-width: 1023px) {
+    .MenusNavbarLogoImage {
+        padding: 0.7em;
+    }
+
+    .MenusNavbarLogoContainer {
+        padding: 0;
+    }
+
+    .ComponentsFooterNewsletterRight {
+        padding: 0em 2em 1em !important;
+    }
+
+    .ComponentsFooterNewsletterWrapper.ComponentsFooterNewsletterWrapperWithoutLeft {
+        margin-top: 100px !important;
+    }
+
+}
+
+.GlobalNavbarMobileContainer {
+    justify-content: space-around;
+}
+
+.GlobalNavbarMobileIconButton {
+    flex-basis: 60px;
+    color: var(--header-font-color);
+}
+
+.GlobalNavbarMobileContainer>.InputsSearchContainer {
+    width: 80px;
+    height: 50px;
+    padding: 1.2em;
+    margin: 5px;
+    border-radius: 1em;
+    background-color: white;
+    overflow: hidden;
+}
+
+.GlobalNavbarMobileContainer>.InputsSearchContainer-Open {
+    position: absolute;
+    inset: unset;
+    width: 100%;
+    padding: 0;
+}
+
+.GlobalNavbarMobileContainer .ButtonSearchSearchIcon::after {
+    color: black;
+}
+
+.GlobalNavbarMobileContainer .InputsSearchInput-Open {
+    width: 100%;
+    background-color: white;
+}
+
+.GlobalNavbarMobileContainer .InputsSearchForm-Open {
+    margin-left: 3em;
+    width: 90vw;
+}
+
+.GlobalNavbarMobileContainer .InputsSearchInput-Open .InputsSearchInputSearchIcon {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: 10px;
+    top: unset;
+    width: 50px;
+    height: 100%;
+}
+
+.GlobalNavbarMobileContainer .InputsSearchInput-Open .InputsSearchInputSearchIcon::after {
+    content: "\F002";
+    color: black;
+}
+
+.GlobalNavbarMobileContainer .InputsSearchInputCloseIcon {
+    position: absolute;
+    right: -15px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.GlobalNavbarMobileContainer .InputsSearchInputCloseIcon::after {
+    color: black;
+}
+
+.GlobalNavbarMobileContainer .InputsSearchInputInner-Open {
+    padding-bottom: unset;
+    color: black;
+    padding-left: 1.5em;
+}
+
+.CategoriesCategoryDescriptionContainer {
+    width: 50%;
+    margin: 15px 0 15px 0;
+}
+
+.ComponentsFooterNewsletterRight div:is(:not(.TinyWrapper_Footer_Newsletter_RightHeader):not(.TinyWrapper_Footer_Newsletter_ContentUnderButton)) {
+    display: none;
+}
+
+.ComponentsFooterNewsletterLink {
+    border-radius: 2em;
+    line-height: 3.5em;
+    padding: 0em 4em;
+}
+
+.ComponentsFooterInfoContainer {
+    margin-top: 0;
+}
